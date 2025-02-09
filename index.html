@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSX</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .sprout {
+        background-color: green;
+        color: white;
+        padding: 30px;
+        margin: 0;
+      }
+      .sprout img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+      }
+      .sproutH2 {
+        font-family: Playwrite DK Loopet, Lexend Deca;
+        background-color: green;
+        color: white;
+        padding: 20px;
+        margin: 0;
+        font-weight: 200;
+        font-size: 35px;
+      }
+      .cs25 {
+        background-color: goldenrod;
+        margin: 0;
+        text-align: center;
+        color: white;
+        padding: 12px;
+      }
+      .box {
+        margin: 0;
+        text-align: center;
+        color: white;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <img src="images/csxLogo.png" / id="navbarLogo">
+      <h2 id="linkTO-join">JOIN US</h2>
+      <h2 id="linkTO-sprout">CS SPROUT</h2>
+      <h2 id="linkTO-contact">CONTACT US</h2>
+      <h2 id="linkTO-future">CS25 & FUTURE PROGRAMS</h2>
+      <img src="images/menuIcon.png" id="mobileMenuIcon" />
+    </div>
+    <br />
+    <br /><br /><br /><br /><br /><br /><br />
+    <h1
+      style="
+        font-family: Montserrat, Lexend Deca, Playwrite DK Loopet, Monospace;
+        text-align: center;
+        font-size: 85px;
+        padding: 10px 30px;
+      "
+    >
+      WELCOME TO CSX
+    </h1>
+    <h3>
+      We are a student run program from Briarcliff Manor, NY that shares our
+      passion for STEM and Computer Science with others
+      <br /><br />Explore our online programs open to all students grades 3-8,
+      as well as opportunities for BHS students
+    </h3>
+    <br />
+    <h3>|<br />v</h3>
+    <br />
+    <div id="linkTO-sprout2">
+      <div class="sprout"><img src="images/sproutLogo.png" /></div>
+      <h2 class="sproutH2">introductory courses in computer science</h2>
+      <h3 class="sprout">learn more -><br />registration closes Feb. 28th</h3>
+    </div>
+    <div class="box" style="background-color: rgb(190, 106, 3)">
+      <h1 style="font-weight: 500">Computer Science at BHS</h1>
+      <h2>Explore studying CS at Briarcliff High School</h2>
+      <h3>coming soon...</h3>
+    </div>
+    <div class="box" style="background-color: rgb(8, 8, 117); color: white">
+      <h1 style="font-family: Playwrite DK Loopet">join us</h1>
+      <h2>
+        Teach your own class or start a chapter of CSX at your school district
+      </h2>
+      <h3>coming soon...</h3>
+      <br />
+    </div>
+    <div class="cs25">
+      <h1 style="font-size: 125px">CS25</h1>
+      <h2>Summer program for beginner and advanced CS courses</h2>
+      <h3>coming soon...</h3>
+      <br />
+    </div>
+    <div id="footer">
+      <img src="images/th.jpeg" id="linkTO-facebook" />
+      <img src="images/ytLogo.png" id="linkTO-youtube" />
+      <h3 id="linkTO-sitemap">Sitemap</h3>
+      <h3>©CSX Briarcliff, 2025</h3>
+    </div>
+  </body>
+  <script src="main.js"></script>
+  <script>
+    document.getElementById("linkTO-sprout2").onclick = function () {
+      window.location.href = "sprout.html";
+    };
+  </script>
+</html>
