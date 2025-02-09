@@ -22,3 +22,6 @@ document.getElementById("linkTO-facebook").onclick = function () {
   window.location.href =
     "https://www.facebook.com/profile.php?id=61572859319399";
 };
+document.getElementById("linkTO-sitemap").onclick = function () {
+  window.location.href = "null.html";
+};
