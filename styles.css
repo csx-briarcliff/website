@@ -87,6 +87,7 @@ h2 {
   #linkTO-sitemap {
     border-radius: 15px;
     background-color: rgb(60, 85, 95);
+    display: none !important;
   }
 }
 
